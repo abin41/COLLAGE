@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Types</title>
+
+    <!-- Internal CSS -->
+    <style>
+        .internal {
+            background-color: #c9b8e5;
+            width: 800px;
+            height: 300px;
+            padding: 10px;
+        }
+
+        .internal h1 {
+            color: yellow;
+        }
+
+        .internal p {
+            color: red;
+        }
+
+        .external {
+            background-color: #536df5;
+            width: 800px;
+            height: 350px;
+            padding: 10px;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- INLINE CSS -->
+    <h3>Inline</h3>
+
+    <div style="background-color:cyan; width:800px; height:320px; padding:10px;">
+
+        <h1 style="color:blue;">
+            COLLEGE OF ENGINEERING VADAKARA
+        </h1>
+
+        <p>
+            The College of Engineering Vadakara is an engineering college
+            in Kozhikode district of Kerala, established in 1999.
+            The first engineering college under the Co-operative Academy
+            of Professional Education, Thiruvananthapuram.
+        </p>
+
+        <img src="college.jpg" width="400" height="200">
+
+    </div>
+
+
+    <!-- INTERNAL CSS -->
+    <h3>Internal</h3>
+
+    <div class="internal">
+
+        <h1>MASTER OF COMPUTER APPLICATION</h1>
+
+        <p>
+            A Master of Science in Information Technology is a master's
+            degree in the field of information technology awarded by
+            universities in many countries or a person holding such a degree.
+        </p>
+
+        <img src="mca.jpg" width="400" height="170">
+
+    </div>
+
+
+    <!-- EXTERNAL CSS -->
+    <h3>External</h3>
+
+    <div class="external">
+
+        <h1>IS MCA GOOD CAREER?</h1>
+
+        <p>
+            Since MCA is a degree of great scope, you can get a job after
+            completing this as well. You can become a hardware engineer
+            after an MCA degree as it will help you understand the basics
+            of designing, installing, and troubleshooting systems.
+        </p>
+
+        <img src="career.jpg" width="500" height="220">
+
+    </div>
+
+</body>
+
+</html>
